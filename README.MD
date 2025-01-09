@@ -71,7 +71,6 @@ The output is just 1 json file (ex: zkevm_cardona_contracts.json) with all contr
 Timings:
 - Bali: ~45 minutes
 - Cardona: ~1h 15minutes
-- Mainnet: 
 
 The process keeps a file with the contracts and no-contracts, so repeating the process will be much faster as there will be no need to query RPC again.
 
@@ -111,8 +110,6 @@ Conflicts file:
 Timings:
 - Bali: ~3 minutes
 - Cardona: ~30 seconds
-- Mainnet: 
-
 
 ## Step 3: Trace conflicts and confirm potential issues
 ```bash
@@ -128,7 +125,6 @@ These files are meant to be of the whole process that are meant
 Timings:
 - Bali: ~1 hour
 - Cardona: ~3 hours
-- Mainnet: 
 
 ### Manual trace
 For any manual validation, the trace can be done this way:
@@ -148,7 +144,6 @@ This steps loads files from previous steps and produces a summary with understan
 Timings:
 - Bali: ~1 minute
 - Cardona: ~1 minute
-- Mainnet: 
 
 Example output for Bali:
 ```bash
